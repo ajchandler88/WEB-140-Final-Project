@@ -2,7 +2,7 @@ Roles
 
 Team Leader- Alan Chandler
 
-Bootstrap Design- 
+Bootstrap Design- Jake Bell
 
 jQuery- Juan Martinez Perez
 
