@@ -1,3 +1,30 @@
-body{
-    background: red;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Serif&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+    font-family: var(--font-libre);
 }
+
+
+
+:root {
+    --clr-medium: hsl(214, 64%, 49%);
+    --clr-medium-opaque: hsl(214, 64%, 49%, 65%);
+    --clr-dark: hsl(221, 93%, 27%);
+    --clr-dark-opaque: hsl(224, 82%, 19%, 65%);
+    --clr-light: hsl(87.8,56.7%,33.5%);
+    --clr-white:  hsl(0, 0%, 100%);
+    --clr-bg-clear: rgba(255, 255, 255, .1);
+    --font-noto: 'Noto Serif', serif;
+    --font-libre: 'Libre Baskerville', serif;
+    /* --clr-white:  hsl(0, 0%, 100%); */
+    /* --clr-dark: hsl(230, 35%, 7%);
+    --clr-dark-opaque: hsl(230, 35%, 7%, 65%); */
+}
+
+
